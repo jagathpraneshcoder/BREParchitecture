@@ -5,9 +5,11 @@ import CreateAdmin from "../pages/CreateAdmin";
 import EditAdmin from "../pages/EditAdmin";
 import AdminProfile from "../pages/AdminProfile";
 
+
 const AdminRoutes = () => {
   return (
     <Routes>
+    
       <Route path="/list" element={<AdminList />} />
       <Route path="/create" element={<CreateAdmin />} />
       <Route path="/edit/:id" element={<EditAdmin />} />

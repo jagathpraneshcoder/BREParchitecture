@@ -34,9 +34,6 @@ import { AuthProvider } from "./contexts/AuthContext";
 const HomePage = () => (
   <>
     <SwipeCarousel />
-    <Body />
-    <AboutUs />
-    <HorizonatalCaurosel />
   </>
 );
 

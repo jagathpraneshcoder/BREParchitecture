@@ -16,10 +16,10 @@ const Navbar = () => {
     }
   };
 
-  const navItems = ["Home", "Projects","Contact"];  
+  const navItems = ["Home", "Projects","Contact","AboutUs"];  
 
   return (
-    <nav className="fixed top-0 left-0 w-full bg-[rgb(238,238,238)] backdrop-blur-lg px-4 py-3 z-50">
+   <nav className="fixed top-0 left-0 w-full bg-transparent backdrop-blur-lg px-4 py-3 z-50">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         <img src="/brep-bgr.png" alt="Logo" className="h-12" />
 
@@ -40,7 +40,7 @@ const Navbar = () => {
 
         {/* Mobile Menu Button */}
         <button
-          className="md:hidden text-black text-2xl"
+          className="md:hidden text-white text-2xl"
           onClick={() => setIsOpen(!isOpen)}
         >
           ☰
